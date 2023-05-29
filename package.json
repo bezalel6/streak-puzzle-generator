@@ -1,0 +1,29 @@
+{
+  "name": "streak-puzzle-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --w ",
+    "start": "echo Error: DUMMY. YOU CANT RUN THIS WITH NPM. JUST RUN \"node dist/index.js\" in the terminal && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "chess.js": "^1.0.0-beta.5",
+    "lichess": "^2.0.15",
+    "lichess-api": "^1.0.2",
+    "lichess-client": "^2.0.0",
+    "simple-lichess-api": "^0.0.46",
+    "stockfish": "^15.0.0",
+    "types-registry": "^0.1.642"
+  }
+}
